@@ -17,56 +17,148 @@ table.face td {
   background-repeat: no-repeat;
   background-position: center;
 }
-table.face td.hairL1 {
-  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairL1.svg);
+
+table.face td.hairL {
   width: 16.67%;
   height: 50%;
 }
-table.face td.hairM1 {
-  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairM1.svg);
+table.face td.hairL.variant1 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairL1.svg);
+}
+table.face td.hairL.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairL2.svg);
+}
+table.face td.hairL.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairL3.svg);
+}
+
+table.face td.hairM {
   width: 66.66%;
   height: 16.67%;
 }
-table.face td.hairR1 {
+table.face td.hairM.variant1 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairM1.svg);
+}
+table.face td.hairM.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairM2.svg);
+}
+table.face td.hairM.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairM3.svg);
+}
+
+table.face td.hairR {
+  width: 16.67%;
+  height: 50%;
+}
+table.face td.hairR.variant1 {
   background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairR1.svg);
-  width: 16.67%;
-  height: 50%;
 }
-table.face td.eyeL1 {
+table.face td.hairR.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairR2.svg);
+}
+table.face td.hairR.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/hairR3.svg);
+}
+
+table.face td.eyeL {
+  width: 33.33%;
+  height: 16.67%;
+}
+table.face td.eyeL.variant1 {
   background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/eyeL1.svg);
+}
+table.face td.eyeL.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/eyeL2.svg);
+}
+table.face td.eyeL.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/eyeL3.svg);
+}
+
+table.face td.eyeR {
   width: 33.33%;
   height: 16.67%;
 }
-table.face td.eyeR1 {
+table.face td.eyeR.variant1 {
   background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/eyeR1.svg);
-  width: 33.33%;
-  height: 16.67%;
 }
-table.face td.cheekL1 {
+table.face td.eyeR.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/eyeR2.svg);
+}
+table.face td.eyeR.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/eyeR3.svg);
+}
+
+table.face td.cheekL {
+  width: 16.67%;
+  height: 50%;
+}
+table.face td.cheekL.variant1 {
   background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/cheekL1.svg);
+}
+table.face td.cheekL.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/cheekL2.svg);
+}
+table.face td.cheekL.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/cheekL3.svg);
+}
+
+
+table.face td.cheekR {
   width: 16.67%;
   height: 50%;
 }
-table.face td.cheekR1 {
+table.face td.cheekR.variant1 {
   background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/cheekR1.svg);
-  width: 16.67%;
-  height: 50%;
 }
-table.face td.chin1 {
-  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/chin1.svg);
+table.face td.cheekR.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/cheekR2.svg);
+}
+table.face td.cheekR.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/cheekR3.svg);
+}
+
+table.face td.chin {
   width: 33.33%;
   height: 16.67%;
 }
-table.face td.nose1 {
-  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/nose1.svg);
+table.face td.chin.variant1 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/chin1.svg);
+}
+table.face td.chin.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/chin2.svg);
+}
+table.face td.chin.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/chin3.svg);
+}
+
+table.face td.nose {
   width: 33.33%;
   height: 33.33%;
 }
-table.face td.mouth1 {
-  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/mouth1.svg);
+table.face td.nose.variant1 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/nose1.svg);
+}
+table.face td.nose.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/nose2.svg);
+}
+table.face td.nose.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/nose3.svg);
+}
+
+table.face td.mouth {
   width: 33.33%;
   height: 16.67%;
 }
+table.face td.mouth.variant1 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/mouth1.svg);
+}
+table.face td.mouth.variant2 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/mouth2.svg);
+}
+table.face td.mouth.variant3 {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/mouth3.svg);
+}
+
 table.face td.blank_square {
   width: 16.67%;
   height: 16.67%;
