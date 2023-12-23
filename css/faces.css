@@ -159,6 +159,10 @@ table.face td.mouth.variant3 {
   background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/mouth3.svg);
 }
 
+table.face td.question_mark {
+  background-image: url(https://d2bigaxkb98vwk.cloudfront.net/assets/question_mark.svg);  
+}
+
 table.face td.blank_square {
   width: 16.67%;
   height: 16.67%;
