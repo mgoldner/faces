@@ -2,11 +2,12 @@
 <head>
 <title>Qualtrics Test</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/mgoldner/faces@main/css/faces.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/mgoldner/faces@latest/css/faces.css" media="screen" />
   <script type="text/javascript">
-    function toggleFaceVisible(button) {
 
-      button.disabled = true;
+    jQuery('#show_face_button').click(function(){ 
+
+      jQuery('#show_face_button').disabled = true;
 
       const el = document.getElementById("face");
 
@@ -29,12 +30,13 @@
         timeleft -= 1;
       }, 1000);
 
-    }
+    });
+ 
   </script>
 </head>
 <body>
 <div class="face">
-  <table class="face fade_hidden" id="face">
+  <table class="face" id="face">
     <tr>
       <td rowSpan="3" class="hairL variant1"/>
       <td colSpan="4" class="hairM variant1"/>
@@ -60,13 +62,13 @@
     </tr>
     <tr>
       <td colSpan="2" class="blank_rectangle"/>
-      <td colSpan="2" class="chin variant1"/>
+      <td colSpan="2" class="chin question_mark"/>
       <td colSpan="2" class="blank_rectangle"/>
     </tr>
   </table>
 </div>
 <div style="display: flex; justify-content: center; align-items: center; padding: 10px">
-  <button id="show_face_button" type="button" onclick="toggleFaceVisible(this)">Ready</button>
+  <button id="show_face_button" type="button">Ready</button>
 </div>
 </body>
 </html>
